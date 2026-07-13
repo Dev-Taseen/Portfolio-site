@@ -131,21 +131,26 @@ ul a:hover {
     margin-top: 150px;
     margin-left: 100px;
     margin-right: 100px;
+    background-color: #fff8f3FF;
+    padding: 15px 15px 25px 15px;
+    border-radius: 10px;
 
 }
 
 .about-me {
     font-size: 36px;
     font-weight: 700;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .about-parent-p1 {
     font-size: 18px;
+    padding-left: 120px;
+    padding-right: 120px;
     padding-bottom: 20px;
     text-align: center;
     letter-spacing: 0.5px;
-    color: rgb(59, 54, 54);
+    color: rgb(130, 125, 125);
 }
 
 .info {
@@ -163,7 +168,7 @@ ul a:hover {
     border: 1px solid gray;
     border-radius: 12px;
     padding: 10px 10px 5px 10px;
-    /* box-shadow: 1px rgb(222, 215, 215); */
+    
 }
 
 
@@ -320,7 +325,9 @@ ul a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
 }
-
+.work-card:hover{
+    transform: scale(1.02);
+}
 
 
 .work-card img {
