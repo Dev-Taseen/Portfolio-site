@@ -1,31 +1,33 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
 
-header{
-        background-color: #fff8f3FF;
+header {
+    background-color: #fff8f3FF;
 }
-.logo span{
-    color:rgb(251, 83, 22) ;
+
+.logo span {
+    color: rgb(251, 83, 22);
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
-    padding: 15px 0 ;
+    padding: 15px 0;
     max-width: 1200px;
     margin: auto;
 }
-.logo{
+
+.logo {
     margin-top: 3px;
     font-size: 36px;
     font-weight: bold;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,22 +36,23 @@ ul{
     font-size: 22px;
     letter-spacing: 0.5px;
     font-family: 'Open Sans', sans-serif;
-    
+
 }
 
 
 
 
-ul a{
+ul a {
     text-decoration: none;
     color: rgb(33, 32, 32);
 }
-ul a:hover{
-    color: rgb(27, 119, 248); 
-    
+
+ul a:hover {
+    color: rgb(27, 119, 248);
+
 }
 
-.button{
+.button {
     padding: 12px 16px;
     font-size: 28px;
     cursor: pointer;
@@ -58,7 +61,8 @@ ul a:hover{
     border: none;
     border-radius: 10px;
 }
-.outline-button{
+
+.outline-button {
     padding: 12px 16px;
     font-size: 28px;
     cursor: pointer;
@@ -66,49 +70,58 @@ ul a:hover{
     color: rgb(251, 83, 22);
     border-radius: 10px;
 }
-.button:hover{
-    transform: scale(1.05);
-}
-.outline-button:hover{
+
+.button:hover {
     transform: scale(1.05);
 }
 
-.hero-parent{
+.outline-button:hover {
+    transform: scale(1.05);
+}
+
+.hero-parent {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: auto;
 }
-.hero-left h2{
+
+.hero-left h2 {
     font-size: 40px;
     font-weight: bolder;
     margin-bottom: 20px;
 }
-.hero-p1{
+
+.hero-p1 {
     font-size: 40px;
     font-weight: 500;
     letter-spacing: 0.5px;
     padding-bottom: 10px;
 }
-.hero-p2{
-    font-size:large;
+
+.hero-p2 {
+    font-size: large;
     letter-spacing: 0.7px;
     margin-bottom: 20px;
     color: rgb(66, 62, 62);
 }
-.hero-right img{
+
+.hero-right img {
     height: 100vh;
 }
-.button-parent{
+
+.button-parent {
     display: flex;
     gap: 15px;
-    
+
 }
-.button-parent button{
+
+.button-parent button {
     font-weight: 600;
 }
-.about-parent{
+
+.about-parent {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -116,29 +129,33 @@ ul a:hover{
     justify-content: center;
     align-items: center;
     margin-top: 150px;
-    margin-left:100px ;
+    margin-left: 100px;
     margin-right: 100px;
 
 }
-.about-me{
+
+.about-me {
     font-size: 36px;
     font-weight: 700;
     padding: 15px 0;
 }
-.about-parent-p1{
+
+.about-parent-p1 {
     font-size: 18px;
     padding-bottom: 20px;
     text-align: center;
     letter-spacing: 0.5px;
     color: rgb(59, 54, 54);
 }
-.info{
+
+.info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
 }
-.info-item{
+
+.info-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,14 +167,14 @@ ul a:hover{
 }
 
 
-.info-item p{
+.info-item p {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 0.5px;
     margin-top: 10px;
 }
 
-.info-item h2{
+.info-item h2 {
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -166,18 +183,19 @@ ul a:hover{
 
 /* what i do css start */
 
-.what-i-do{
+.what-i-do {
     max-width: 1200px;
     margin: 60px auto;
     text-align: center;
 }
 
-.head{
+.head {
     font-size: 36px;
     font-weight: 700;
     padding: 15px 0;
 }
-.header-text{
+
+.header-text {
     font-size: 18px;
     padding-bottom: 20px;
     text-align: center;
@@ -186,33 +204,35 @@ ul a:hover{
     margin: 0 180px;
 }
 
-.list{
+.list {
     display: flex;
     justify-content: space-between;
     gap: 10px;
     margin: 10px 30px 0 30px;
 }
 
-.list-item{
+.list-item {
     text-align: left;
     border: 1px solid gray;
     padding: 15px 30px 12px 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
-.list-item:hover{
+
+.list-item:hover {
     transform: scale(1.05);
     transition: 0.3s ease;
 }
 
-.list-item h2{
+.list-item h2 {
     font-size: 20px;
-    font-weight:900;
+    font-weight: 900;
     padding: 10px 0;
     line-height: 1.2;
     letter-spacing: 0.5px;
 }
-.list-item p{
+
+.list-item p {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.75;
@@ -222,19 +242,19 @@ ul a:hover{
 
 /* resume css start */
 
-.resume{
+.resume {
     max-width: 1200px;
     margin: 60px auto;
     text-align: center;
 }
 
-.resume-list{
+.resume-list {
     display: flex;
     gap: 15px;
-    margin-bottom: 10px ;
+    margin-bottom: 10px;
 }
 
-.education{
+.education {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -244,53 +264,97 @@ ul a:hover{
     margin-top: 20px;
 }
 
-.eduction-heading{
+.eduction-heading {
     font-size: 28px;
     font-weight: 700;
     padding: 8px 0;
     padding-left: 10px;
 }
 
-.education-list{
+.education-list {
     /* border: 1px solid gray; */
     row-gap: 10px;
     background-color: rgb(239, 244, 244);
     border-radius: 15px;
     padding-left: 10px;
     padding-top: 5px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
-.education-list h2{
+
+.education-list h2 {
     font-size: 25px;
     font-weight: 700;
 }
-.education-list p{
+
+.education-list p {
     font-size: 20px;
     font-weight: 400;
     color: rgb(84, 76, 76);
     padding: 10px 10px 10px 0;
 }
-.resume button{
-    margin: 20px 0 ;
+
+.resume button {
+    margin: 20px 0;
 }
 
 /* works css */
 
-.work{
-    max-width: 1200px ;
+.work {
+    max-width: 1200px;
     margin: 60px auto;
     text-align: center;
 }
-.parent{
-    margin-top: 20px 0;
-    display: flex;
-    /* justify-content: center; */
 
+.parent {
+    margin-top: 30px ;
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    justify-content: center;
+    gap: 25px;
+}
+
+.work-card {
+    background: #fff8f3FF;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+
+
+.work-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+  
+}
+
+.work-card h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px ;
+}
+.work-card a{
+    display: inline-block;
+    background-color:rgb(251, 83, 22);
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    margin: 20px;
+    border-radius: 5px;
+}
+.work-card a:hover{
+    transform: scale(1.05);
 }
 
 /* footer section css */
 
-.footer-section{
+.footer-section {
     max-width: 1200px;
     margin: 60px auto;
     text-align: center;
@@ -303,27 +367,29 @@ ul a:hover{
     border-radius: 8px;
 }
 
-.footer-left{
+.footer-left {
     justify-content: center;
     text-align: left;
-    padding-left: 40px;    
+    padding-left: 40px;
 }
 
-.footer-left p{
+.footer-left p {
     font-size: 20px;
     font-weight: 400;
     font-family: 'Times New Roman';
     color: rgb(84, 76, 76);
 }
 
-.footer-right{
+.footer-right {
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:start;
+    justify-content: center;
+    align-items: start;
     text-align: left;
 }
-.footer-right input, .footer-right textarea{
+
+.footer-right input,
+.footer-right textarea {
     background-color: white;
     width: 500px;
     font-size: 18px;
@@ -333,13 +399,13 @@ ul a:hover{
     margin-bottom: 8px;
 }
 
-.footer-icon{
+.footer-icon {
     margin-top: 12px;
     font-size: 30px;
     color: rgb(251, 83, 22);
 }
 
-.footer-icon i:hover{
+.footer-icon i:hover {
     color: rgb(206, 57, 3);
     transform: scale(1.05);
     transition: 0.3s ease;
