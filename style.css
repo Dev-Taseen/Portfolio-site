@@ -274,3 +274,61 @@ ul a:hover{
     /* justify-content: center; */
 
 }
+
+/* footer section css */
+
+.footer-section{
+    max-width: 1200px;
+    margin: 60px auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    background-color: #fff8f3FF;;
+    gap: 30px;
+    padding: 80px 20px 30px 20px;
+    border-radius: 8px;
+}
+
+.footer-left{
+    justify-content: center;
+    text-align: left;
+    
+}
+
+.footer-left p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Times New Roman';
+    color: rgb(84, 76, 76);
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    align-items:start;
+    text-align: left;
+}
+.footer-right input, .footer-right textarea{
+    background-color: white;
+    width: 500px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.footer-icon{
+    margin-top: 12px;
+    font-size: 30px;
+    color: rgb(251, 83, 22);
+}
+
+.footer-icon i:hover{
+    color: rgb(206, 57, 3);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
